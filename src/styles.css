@@ -1,6 +1,10 @@
 /* General styling */
+pre, code { 
+    font-family: Hack, monospace; 
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Hack, monospace;
     color: #033;
     margin: 0;
     padding: 0;
