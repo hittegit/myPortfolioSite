@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #033;
+    margin: 0;
+    padding: 0;
+}
+
+/* Aerospace theme colors */
+:root {
+    --primary-color: #1a73e8; /* Sky Blue */
+    --secondary-color: #41464b; /* Dark Gray */
+    --accent-color: #f5c842; /* Golden */
+}
+
+/* Navigation */
+nav {
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+}
